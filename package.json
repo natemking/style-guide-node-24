@@ -1,0 +1,30 @@
+{
+    "name": "style-guide-node-24",
+    "version": "1.0.0",
+    "description": "Style guide for node v24 Typescript projects using Eslint & Prettier",
+    "author": "Nate M King",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write .",
+        "lint": "eslint . ",
+        "lint:fix": "eslint . --fix ",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "node server.ts"
+    },
+    "devDependencies": {
+        "@eslint-community/eslint-plugin-eslint-comments": "^4.7.1",
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^25.4.0",
+        "eslint": "^9.39.4",
+        "eslint-import-resolver-typescript": "^4.4.4",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-tsdoc": "^0.5.2",
+        "eslint-plugin-unicorn": "^63.0.0",
+        "jiti": "^2.6.1",
+        "prettier": "^3.8.1",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.57.0"
+    }
+}
