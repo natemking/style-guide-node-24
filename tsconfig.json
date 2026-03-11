@@ -5,14 +5,10 @@
         "module": "nodenext",
         "moduleResolution": "nodenext",
         "target": "esnext",
-        "outDir": "dist",
         "types": ["node"],
         "noEmit": true,
+        "rootDir": ".",
         "allowImportingTsExtensions": true,
-        "baseUrl": ".",
-        "paths": {
-            "@/*": ["*"]
-        },
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true
