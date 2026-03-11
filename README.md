@@ -44,3 +44,6 @@ pnpm add -D @eslint-community/eslint-plugin-eslint-comments @eslint/js eslint es
 
 ### Troubleshooting
 If after applying to your project and linting is not happening, run `npx eslint .` from the root as there may be errors. The packages installed may be different from the time this was initially setup and breaking changes could have occurred.
+
+## TODO
+As of making this style guide (3/2026), `eslint-plugin-import` does not support eslint v10. Once there is support then `eslint` & `eslint/js` packages can be updated. 
