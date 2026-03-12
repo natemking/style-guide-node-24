@@ -11,8 +11,8 @@
         "allowImportingTsExtensions": true,
         "strict": true,
         "esModuleInterop": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
     },
-    "include": ["**/*.ts", "**/*.js"],
+    "include": ["**/*.ts"],
     "exclude": ["node_modules", "build", "dist"]
 }

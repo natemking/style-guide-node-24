@@ -29,14 +29,16 @@ export default defineConfig([
         },
         languageOptions: {
             parserOptions: {
-                projectService: true,
+                project: './tsconfig.json',
                 tsconfigRootDir: import.meta.dirname,
             },
         },
         settings: {
             /** Resolver for typescript and node imports */
             'import/resolver': {
-                typescript: true,
+                typescript: {
+                    project: './tsconfig.json',
+                },
                 node: true,
             },
         },
