@@ -323,7 +323,8 @@ export default defineConfig([
                     caughtErrorsIgnorePattern: '^_|^err$|^error$',
                     // Unused destructured array elements prefixed with `_`
                     destructuredArrayIgnorePattern: '^_',
-                    varsIgnorePattern: '^_',
+                     // allows single _ but flags __ or more underscores.
+                    varsIgnorePattern: '^_(?!_)',
                     // Allows ignoring unused rest properties in object destructuring
                     ignoreRestSiblings: true,
                 },
