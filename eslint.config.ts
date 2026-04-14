@@ -130,8 +130,6 @@ export default defineConfig([
             'no-useless-return': 'warn',
             /** Require using named capture groups in regular expressions. */
             'prefer-named-capture-group': 'error',
-            /** Require using Error objects as Promise rejection reasons. */
-            'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
             /** Disallow use of the RegExp constructor in favor of regular expression literals. */
             'prefer-regex-literals': 'error',
             /** Disallow "Yoda conditions", ensuring the comparison. */
